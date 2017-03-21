@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-03-21 13:13:41
+/* Smarty version 3.1.31, created on 2017-03-21 14:21:40
   from "E:\xampp\htdocs\leerjaar2\WerkVoorOpdrachtGever\smarty-3.1.31\templates\body.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_58d118f5668566_16982252',
+  'unifunc' => 'content_58d128e4a0d1d5_14099223',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7dc2e0825b5baba7af990708bf69d71ae8388d22' => 
     array (
       0 => 'E:\\xampp\\htdocs\\leerjaar2\\WerkVoorOpdrachtGever\\smarty-3.1.31\\templates\\body.tpl',
-      1 => 1490098403,
+      1 => 1490102490,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_58d118f5668566_16982252 (Smarty_Internal_Template $_smarty_tpl) {
+function content_58d128e4a0d1d5_14099223 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <body>
 <div id="imgGallary" class="container">
@@ -48,40 +48,34 @@ function content_58d118f5668566_16982252 (Smarty_Internal_Template $_smarty_tpl)
     </div>
 </div>
 <br style="clear: both;">
-<div id="Contact">
-    <h1>Contact</h1>
-</div>
-<div id="contactleft">
-    <div class="Contactdivs">
-        <p>Phonenumber</p>
-        <p>+31 (20)6734137</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Contact</h1>
+        </div>
     </div>
-    <br>
-    <div class="Contactdivs">
-        <p>Cellphonenumber</p>
-        <p>+31 (0)626138526</p>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <p class="flipvla">T: +31 (20)6734137</p>
+            <p class="flipvla">M: +31 (0)626138526</p>
+            <p class="flipvla">E: tonleenarts@gmail.com</p>
+            <p class="flipvla">F: <a>www.facebook.com/tonleenarts</a></p>
+        </div>
+        <div class="col-md-5">
+            <form>
+                <input class="name" type="text" name="fullname" placeholder="Full name">
+                <br>
+                <input class="name" type="email" name="email" autocomplete="off" placeholder="E-mail adress">
+                <br>
+                <textarea class="jantje" name="message" rows="10" cols="30" placeholder="type your E-mail here"></textarea>
+            </form>
+            <br>
+            <a class="contact" href="">Send message</a>
+        </div>
+        <div class="col-md-1"></div>
     </div>
-    <br>
-    <div class="Contactdivs">
-        <p>E-mail</p>
-        <p>tonleenarts@gmail.com</p>
-    </div>
-</div>
-<div id="contactright">
-    <form>
 
-        <input type="text" name="Name" value="Name" id="form1">
-
-
-        <input type="text" name="Email" value="Email" id="form2">
-
-
-        <textarea name="email" id="email" rows="20" cols="43" id="form3">Send Message</textarea>
-        <br>
-        <br>
-        <input type="submit" value="Send Message" id="ButtonContact">
-    </form>
-</div>
 <?php echo '<script'; ?>
 >
     (function(){

@@ -1,4 +1,6 @@
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <script src="../script/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

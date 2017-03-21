@@ -1,0 +1,118 @@
+
+
+h1{
+    font-family:'blender', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+p.flipvla {
+    font-family: 'Open sans',sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: #575656;
+    margin: 30px;
+}
+p.flipvla:first-letter {
+    font-family: 'Open sans',sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: #E0A328;
+    margin-top: 30px;
+}
+p.vlaflip {
+    font-family: 'Open sans',sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: #575656;
+}
+a{
+    font-family: 'Open sans',sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: #575656;
+}
+
+a.contact {
+    font-family: 'Blender',sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    background-color: #E0A328;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input.name{
+    font-family: 'open sans', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #DEDEDE;
+    margin-top:30px;
+    width: 100%;
+
+}
+
+textarea.jantje{
+    font-family: 'open sans', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #DEDEDE;
+    margin-top:30px;
+    width: 100%;
+    border-color: #DEDEDE;
+}
+/*About*/
+
+#aboutH1 {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+#About {
+    margin-top: 40px;
+}
+
+#aboutMain {
+    margin: 0px;
+}
+
+#aboutLeft {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#aboutLeft img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+#aboutRight {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+
+}
+
+@media only screen and (max-width:1134px) {
+    #aboutLeft {
+        width: 100%;
+    }
+    #aboutLeft img {
+        height: auto;
+        width: 50%;
+    }
+    #aboutRight {
+        width: 50%;
+    }
+    #ArrowDown {
+        width: 100px;
+        margin-left: 42%;
+    }
+}

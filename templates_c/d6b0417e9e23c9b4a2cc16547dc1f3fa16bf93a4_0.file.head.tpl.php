@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-03-21 12:35:41
+/* Smarty version 3.1.31, created on 2017-03-21 14:21:40
   from "E:\xampp\htdocs\leerjaar2\WerkVoorOpdrachtGever\smarty-3.1.31\templates\head.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_58d1100dc4ef71_22852850',
+  'unifunc' => 'content_58d128e4970c80_77217286',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6b0417e9e23c9b4a2cc16547dc1f3fa16bf93a4' => 
     array (
       0 => 'E:\\xampp\\htdocs\\leerjaar2\\WerkVoorOpdrachtGever\\smarty-3.1.31\\templates\\head.tpl',
-      1 => 1490096129,
+      1 => 1490102498,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_58d1100dc4ef71_22852850 (Smarty_Internal_Template $_smarty_tpl) {
+function content_58d128e4970c80_77217286 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <?php echo '<script'; ?>
  src="../script/script.js"><?php echo '</script'; ?>
